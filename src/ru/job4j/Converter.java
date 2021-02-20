@@ -2,21 +2,18 @@ package ru.job4j;
 
 public class Converter {
     public static int rubleToEuro(int value) {
-        int rsl = value/70;
-        return rsl;
+        return value/90;
     }
     public static int rubleToDollar(int value) {
-        int rsl = value/60;
-        return rsl;
-    }
+        return value/75;
+            }
     public static int rubleToPound(int value) {
-        int rsl = value/100;
-        return rsl;
-    }
+        return value/100;
+            }
 
     public static void main(String[] args) {
-        int euro = Converter.rubleToEuro(140);
-        int dollar = Converter.rubleToDollar(180);
+        int euro = Converter.rubleToEuro(270);
+        int dollar = Converter.rubleToDollar(150);
         int pound = Converter.rubleToPound(500);
         System.out.println("500 rubles are " + pound + " pound.");
         System.out.println("140 rubles are " + euro + " euro.");
