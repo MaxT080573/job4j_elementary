@@ -8,22 +8,27 @@ public class LogicNot {
     }
 
     public static boolean isPositive(int num) {
+
         return num > 0;
     }
 
     public static boolean notEven(int num) {
+
         return !isEven(num);
     }
 
     public static boolean notPositive(int num) {
+
         return  num < 0;
     }
 
     public static boolean notEvenAndPositive(int num) {
+
         return num % 2 == 0 && num > 0;
     }
 
     public static boolean evenOrNotPositive(int num) {
+
         return num % 2 == 0 && num < 0;
     }
 
@@ -42,4 +47,5 @@ public class LogicNot {
         System.out.println(result4);
         System.out.println(result5);
     }
+
 }
