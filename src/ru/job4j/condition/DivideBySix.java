@@ -10,7 +10,7 @@ public class DivideBySix {
                 rsl = ("Исходное число делится на 3, но не является четным.");
             }
         } else {
-            if (number % 3 == 1 && number % 2 == 0) {
+            if (number % 2 == 0) {
                 rsl = ("Исходное число не делится на 3, но является четным.");
             } else {
                 rsl = ("Исходное число не делится на 3 и не является четным");
@@ -20,7 +20,7 @@ public class DivideBySix {
     }
 
     public static void main(String[] args) {
-                int number = 178;
+                int number = 249;
         String result = DivideBySix.checkNumber(number);
         System.out.println(result);
 
